@@ -11,15 +11,12 @@ function a2(){
 	var x=0
 	var s=""
 	while(x<=100){
-		if(x%3==0){
-			s=s+"Fizz"
-			if(x%5==0){
-				s=s+"Buzz"
-			}
+		if(x%3==0)s="FIZZ"
+		if(x%5==0)s=s+"BUZZ"
+		if(s=="")s=x
 		console.log(s)
-		}else console.log(x)
-		x++
 		s=""
+		x++
 	}
 }
 
@@ -28,14 +25,13 @@ function a2(){
 function a3(){
 	var i=0
 	var s=""
-	while(i<=8){
+	while(i<=7){
 		if(!(i%2)){
 			while(s.length!=8){
 			s=s+" #"
 			}
 				console.log(s)
 				i++
-
 				s=""
 			}
 		 else{
@@ -51,4 +47,4 @@ function a3(){
 	
 
 
-a2()
+a3()
