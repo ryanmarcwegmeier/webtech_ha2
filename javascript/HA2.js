@@ -45,6 +45,9 @@ function a3(){
 		}
 	}
 	
-
-
+console.log("A1")
+a1()
+console.log("A2")
+a2()
+console.log("A3")
 a3()
